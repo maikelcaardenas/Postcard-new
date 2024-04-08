@@ -1,0 +1,56 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif, normal;
+}
+.postcard{
+    height: 300px;
+    width: 400px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.postcard-header{
+display: flex;
+margin-bottom: 25px;
+}
+.postcard-header img{
+    width: 50px;
+    height: 50px;
+}
+.postcard-header h1{
+    width: 100%;
+    margin: 0;
+}
+.postcard-body{
+    display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+input {
+	border:none;
+	border-bottom: 1px grey solid;
+}
+.postcard-footer{
+    text-align: center;
+}
+.postctard-footer{
+    text-align: center;
+}
+button{
+    background-color: darkgrey;
+    padding: 7px 10px;
+    margin-top: 15px;
+}
+.social-network{
+    margin: 10px 30px;
+    padding: 5px 100px;
+}
+.github{
+    color: black;
+}
